@@ -1,0 +1,23 @@
+.quti{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    animation: sakra 1s infinite alternate-reverse;
+    text-align: center;
+    
+}
+body{
+    padding-top: 200px;
+    padding-left: 500px;
+}
+
+@keyframes sakra {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-200px);
+        border-radius: 50%;
+        background-color: yellow;
+    }
+}
